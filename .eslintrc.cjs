@@ -26,15 +26,6 @@ module.exports = {
   },
   plugins: ['react-refresh'],
   rules: {
-    'no-unused-vars': [
-      'error',
-      {
-        vars: 'all',
-        args: 'after-used',
-        ignoreRestSiblings: true,
-        argsIgnorePattern: '^_',
-      },
-    ],
     'react/react-in-jsx-scope': 'off',
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     '@typescript-eslint/no-non-null-assertion': 'off',
