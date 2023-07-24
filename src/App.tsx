@@ -1,17 +1,7 @@
 import { Footer, Header } from '@/components/UI/organisms';
-import { createBrowserRouter } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 
-const router = createBrowserRouter([
-  // {
-  //   path: '/login',
-  //   element: <Login/>
-  // },
-  // {
-  //   path: '/login',
-  //   element: <Login/>
-  // }
-]);
+// const router = createRoutesFromElements(<Route></Route>);
 
 export const App = () => {
   return (
