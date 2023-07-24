@@ -1,0 +1,14 @@
+input {
+  [type='text'],
+  [type='date'],
+  [type='password'],
+  [type='email'] {
+  }
+
+  [type='file'] {
+  }
+
+  [type='radio'],
+  [type='checkbox'] {
+  }
+}

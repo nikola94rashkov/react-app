@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import './ErrorMessage.scss';
 
 interface IErrorMessage {
   message: string;
@@ -6,5 +7,5 @@ interface IErrorMessage {
 }
 
 export const ErrorMessage: FC<IErrorMessage> = ({ message, visible }) => (
-  <span className={`error ${visible ? 'error-vissible' : 'error-hidden'}`}>{message}</span>
+  <span className={`error ${visible ? 'error-visible' : 'error-hidden'}`}>{message}</span>
 );
