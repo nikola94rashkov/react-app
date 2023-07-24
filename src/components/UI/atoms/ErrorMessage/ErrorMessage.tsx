@@ -6,5 +6,5 @@ interface IErrorMessage {
 }
 
 export const ErrorMessage: FC<IErrorMessage> = ({ message, visible }) => (
-  <span className={`error ${visible ? 'error-vissible' : ''}`}>{message}</span>
+  <span className={`error ${visible ? 'error-vissible' : 'error-hidden'}`}>{message}</span>
 );
